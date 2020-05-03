@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 # 3rd party
 INSTALLED_APPS += [
     "main",
+    "dashboard",
     "compressor",
     'crispy_forms',
     'channels',
