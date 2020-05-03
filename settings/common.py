@@ -187,5 +187,5 @@ if DEBUG_TOOLBAR_ENABLED:
         "SHOW_TOOLBAR_CALLBACK": show_toolbar,
         "SHOW_COLLAPSED": True,
     }
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/dashboard'
 ASGI_APPLICATION = "main.routing.application"
